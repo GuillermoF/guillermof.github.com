@@ -1,45 +1,52 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 <html>
-<head>
-<title>Whacka</title>
-<meta charset="UTF-8" />
-<style>
-body {
-font-family: "Trebuchet MS", "Sans-serif";
-}
-canvas {
-border: 1px solid black;
-}
-span {
-border: 1px solid;
-border-radius: 5px;
-cursor: pointer;
-background-color: #D84911;
-}
-</style>
-</head>
-<body>
-<script src="canvas.js"></script>
-<div style="float: center">
-<canvas id="canvas" width="400" height="200">
-Your Browser does not support Canvas. Please use the latest version of:
-Google Chrome, Mozilla Firefox.
-</canvas>
-<br />
-<br />
-<span id="generateStartEnd">
-1.) Generate Random Start/Finish
-</span>
-<br />
-<br />
-<span id="generateObstacles">
-2.) Generate Obstacles
-</span>
-<br />
-<br />
-<span id="makePath">
-3.) Make Path
-</span>
-</div>
-</body>
+	<head>
+		<title>Visualization</title>
+		<meta charset="UTF-8" />
+		<style>
+			body {
+				font-family: "Trebuchet MS", "Sans-serif";
+			}
+			canvas {
+				border: 1px solid black;
+			}
+			span {
+				border: 1px solid;
+				border-radius: 5px;
+				cursor: pointer;
+				background-color: #D84911;
+			}
+		</style>
+	</head>
+	<body>
+		<script src="canvas.js"></script>
+	<p>
+		A couple certifications:
+		<ul>
+			<li>Udacity.com's <a href="https://docs.google.com/open?id=0B4nLaRt4BvREWFB3ZjJSYThrVGM">Programming a Robotic Car</a> (Artificial Intelligence)</li>
+			<li>Coursera.org's <a href="https://docs.google.com/open?id=1XM3zFJccsURIo6wmpyLRFoWT3_O5mCHkozs9Knpmqwu9D_3t6AYAVlfoFk5H">Algorithms I</a></li>
+		</ul>
+	</p>
+	<div style="float: center">
+		<canvas id="canvas" width="400" height="200">
+			Your Browser does not support Canvas. Please use the latest version of:
+			Google Chrome.
+		</canvas>
+		<br />
+		<br />
+		<span id="generateStartEnd">
+			1.) Generate Random Start/Finish
+		</span>
+		<br />
+		<br />
+		<span id="generateObstacles">
+			2.) Generate Obstacles
+		</span>
+		<br />
+		<br />
+		<span id="makePath">
+			3.) Make Path
+		</span>
+	</div>
+	</body>
 </html>
