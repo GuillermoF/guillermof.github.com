@@ -167,8 +167,11 @@ function make_path(start, end, grid, astar_grid) {
       			[0,-1]]; //up
 	goalx = end[0] / 20;
 	goaly = end[1] / 20;
-	var values = [];
+	
+	values = [];
 	actions = [];
+	expanded = {};
+
 	for (i = 0; i < grid.length; i++) {
 		values[i] = new Array(grid[0].length);
 		actions[i] = new Array(grid[0].length);
@@ -253,4 +256,5 @@ function make_path(start, end, grid, astar_grid) {
 		set_bgcolor(xpath,ypath,'path');
 	}
 */
+
 }
